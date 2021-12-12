@@ -16,6 +16,10 @@ header {
     margin: 20px 0px 20px 0px;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 nav {
     font-size: 24px;
     text-align: right;
@@ -42,11 +46,19 @@ body {
 }
 
 main {
-    width: 75%;
+    width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    flex-wrap: wrap;
     color: var(--navy);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: fit-content;
+    background-color: #dfcaae;
 }
 
 .photo {
@@ -57,20 +69,56 @@ main {
     background-color: var(--ivory);
 }
 
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #dfcaae;
-}
 
 h2 {
-    position: relative;
-    margin-left: 200px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 p {
     font-size: 20px;
     line-height: 30px;
+}
+
+.contact-details {
+    color: var(--navy);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 50px;
+}
+
+footer {
+    background-color: var(--navy);
+    color: var(--ivory);
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 922px) {
+    li {
+       display: block;
+       text-align: center;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .photo {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
 }
