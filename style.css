@@ -1,13 +1,25 @@
+/* Sets variable for color scheme on page */
+
 :root {
     --ivory: #F2EFDE;
     --navy: #000034;
 }
+
+/* Universal selectors for page formatting and setting font */
 
 * {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+/* Adds background-color to entire page */
+
+body {
+    background-color: var(--ivory);
+}
+
+/* Adds styles to header and main heading */
 
 header {
     background-color: var(--navy);
@@ -19,6 +31,8 @@ header {
 h1 {
     font-size: 40px;
 }
+
+/* Styles navigation menu */
 
 nav {
     font-size: 24px;
@@ -41,9 +55,7 @@ a {
     color: var(--ivory);
 }
 
-body {
-    background-color: var(--ivory);
-}
+/* Formats and styles main section of page */
 
 main {
     width: 100%;
@@ -61,6 +73,8 @@ section {
     background-color: #dfcaae;
 }
 
+/* Defines position of images and adds border */
+
 .photo {
     float: left;
     border: 5px solid var(--navy);
@@ -69,6 +83,7 @@ section {
     background-color: var(--ivory);
 }
 
+/* Formats and styles text in each of the sections */
 
 h2 {
     font-size: 30px;
@@ -80,6 +95,8 @@ p {
     line-height: 30px;
 }
 
+/* Styles contact details list */
+
 .contact-details {
     color: var(--navy);
     font-size: 24px;
@@ -87,6 +104,8 @@ p {
     text-decoration: underline;
     line-height: 50px;
 }
+
+/* Styles footer and footer text */
 
 footer {
     background-color: var(--navy);
@@ -99,6 +118,8 @@ footer {
 h3 {
     font-size: 24px;
 }
+
+/* Adds media queries to make page responsive */
 
 @media only screen and (max-width: 922px) {
     li {
