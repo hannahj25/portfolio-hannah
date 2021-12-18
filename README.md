@@ -6,7 +6,7 @@ The goal of this project is to establish a simple portfolio webpage that I can u
 
 ## Specifications
 
-The page includes: 
+The main elements of the page are: 
 
    Name and photo/avatar 
 
@@ -20,6 +20,9 @@ The code is structured with links scrolling to each section and uses a responsiv
 
 
 ## Screenshots
-
+![Screenshot](./assets/screenshot.png)
+![Screenshot2](./assets/screenshot2.png)
 
 ## Link
+
+https://hannahj25.github.io/portfolio-hannah/
