@@ -12,7 +12,7 @@ The page includes:
 
    A brief introduction/about me
 
-   A section wherein projects are displayed, with the first project displayed at a larger size
+   A section wherein titled projects are displayed, with the first project displayed at a larger size
    
    A section with contact information
 
