@@ -12,16 +12,15 @@ The main elements of the page are:
 
    A brief introduction/about me
 
-   A section wherein titled projects are displayed, with the first project displayed at a larger size
+   A section wherein titled projects and their links are displayed
    
    A section with contact information
 
 The code is structured with links scrolling to each section and uses a responsive layout that can be easily viewed on different screen sizes.
 
 
-## Screenshots
-![Screenshot](./assets/screenshot.png)
-![Screenshot2](./assets/screenshot2.png)
+## Screenshot
+![Screenshot](./assets/portfolioscreenshot.png)
 
 ## Link
 
