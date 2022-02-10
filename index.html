@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio: Hannah</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-    <header id ="top">
+    <header id="top">
         <h1>Hannah Peterson</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#about">About Me</a>
+                    <a class="nav-items" href="#about">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">My Work</a>
+                    <a class="nav-items" href="#work">My Work</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Me</a>
+                    <a class="nav-items" href="#contact">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -28,46 +31,81 @@
     </header>
 
     <main>
-        <section id="about">
-            <img src="assets/self.jpg" alt="Photo of me" title="Me" class="photo" width="200px"/>
-            <h2>About Me</h2>
-            <p>Hi! My name is Hannah and I'm located in regional South Australia. Currently, I am working part-time in a customer service position whilst studying web development via the University of Adelaide's Coding Boot Camp.</p>
-            <p>For samples of my work so far, see below. Please visit this page again soon as I will update with new projects as I go!</p>
-            <p>You can also find my contact information at the bottom of the page.</p>
-            <p>Thank you!</p>
+        <div class="container">
+            <div class="row" id="about">
+                <div>
+                    <h2 class="subheadings">About Me</h2>
+                    <img src="assets/self.jpg" alt="Photo of me" title="Me" class="photo" width="200px" />
+                </div>
+                <div>
+                    <p>Hi! My name is Hannah and I'm located in regional South Australia. Currently, I am working
+                        part-time in a customer service position whilst studying web development via the University of
+                        Adelaide's Coding Boot Camp.</p>
+                    <p>For a few samples of my work so far, see below. Please visit this page again later as I will update
+                        with new projects as I go! You can also find my contact information at the bottom of the page.
+                        Thank you!</p>
+                </div>
 
-        </section>
-
-        <section id ="work">
-            <h2>My Work</h2>
-            <div id="work-links">
-                   <h3 class="project-title">Landing Page</h3>
-                   <a href="https://hannahj25.github.io/git-init-sample/index.html"><img class="decorate-links" src="assets/landingscreenshot.png" title="Landing Page" width="100%"/></a>
-                   <h3 class="project-title">Future Projects</h3>
-                   <div id="future-projects">
-                    <a href="link"><img class="decorate-links" src="assets/placeholder.jpg" title="Future Project" width="100%"/></a>
-                    <a href="link"><img class="decorate-links" src="assets/placeholder2.jpg" title="Future Project 2" width="100%"/></a>
-                   </div>
             </div>
-               
-        </section>
 
-        <section id="contact">
-            <div>
-               <h2>Contact Me</h2>
-                   <ul id="contact-list">
-                      <li>
-                          <a href="mailto:peterson.hj@outlook.com" class="contact-details-item">Email</a>
-                      </li>
-                      <li>
+            <div class="row" id="work work-links">
+                <h2 class ="subheadings">Work</h2>
+                <div>
+                    <h3 class="project-title">Word Generator</h3>
+                    <img class="decorate-links" title="Word generator screenshot" alt="Word generator screenshot" src="assets/wordgeneratorscreenshot.png" width="100%" />
+                    <p id="work-links">Repo: <a href="https://github.com/Mattdsena/GroupProject"
+                        target="blank">https://github.com/Mattdsena/GroupProject</a></p>
+                <p id="work-links">Deployed site: <a href="https://mattdsena.github.io/GroupProject/"
+                        target="blank">https://mattdsena.github.io/GroupProject/</a></p>
+                </div>
+                <div>
+                    <h3 class="project-title">Weather Dashboard</h3>
+                    <img class="decorate-links" title="Weather dashboard screenshot" alt="Weather dashboard screenshot" src="assets/weatherscreenshot.png" width="100%" />
+                    <p id="work-links">Repo: <a href="https://github.com/hannahj25/weather-dashboard"
+                            target="blank">https://github.com/hannahj25/weather-dashboard</a></p>
+                    <p id="work-links">Deployed site: <a href="https://hannahj25.github.io/weather-dashboard/"
+                            target="blank">https://hannahj25.github.io/weather-dashboard/</a></p>
+                </div>
+                <div>
+                    <h3 class="project-title">Code Quiz</h3>
+                    <img class="decorate-links" title="Code quiz screenshot" alt="Code quiz screenshot" src="assets/codequizscreenshot.png" width="100%" />
+                    <p id="work-links">Repo: <a href="https://github.com/hannahj25/code-quiz"
+                            target="blank">https://github.com/hannahj25/code-quiz</a></p>
+                    <p id="work-links">Deployed site: <a href="https://hannahj25.github.io/code-quiz/"
+                            target="blank">https://hannahj25.github.io/code-quiz/</a></p>
+                </div>
+                <div>
+                    <h3 class="project-title">Landing Page - just for fun!</h3>
+                    <img class="decorate-links" src="assets/landingscreenshot.png" title="Landing page screenshot" alt="Landing page screenshot" width="100%" />
+                    <p id="work-links">Repo: <a href="https://github.com/hannahj25/little-birds"
+                        target="blank">https://github.com/hannahj25/little-birds</a></p>
+                <p id="work-links">Deployed site: <a href="https://hannahj25.github.io/little-birds/"
+                        target="blank">https://hannahj25.github.io/little-birds/</a></p>
+                </div>
+
+
+            </div>
+
+            <div class="row" id="contact">
+                <h2 class="subheadings">Contact Me</h2>
+                <ul id="contact-list">
+                    <li>
+                        <a href="mailto:peterson.hj@outlook.com" class="contact-details-item">Email</a>
+                    </li>
+                    <li>
                         <a href="https://github.com/hannahj25" target="blank" class="contact-details-item">Github</a>
-                      </li>
-                      <li class="contact-details-item">Linkedin</li>
-                    </ul>
-            </div>       
-            
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/petersonhj/"" target=" blank"
+                            class="contact-details-item">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href ="assets/resume.pdf" class="contact-details-item" target="blank">Resume</a>
+                    </li>
+                </ul>
 
-        </section>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -77,4 +115,5 @@
     </footer>
 
 </body>
+
 </html>
